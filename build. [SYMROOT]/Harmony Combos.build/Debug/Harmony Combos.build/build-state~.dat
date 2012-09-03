@@ -1,0 +1,818 @@
+THarmony Combos
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Info.plist" Harmony_Combos-Info.plist
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings" it.lproj/InfoPlist.strings
+cCpResource HarmonyCombos.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns"
+cCpResource "Hard Drive.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Hard Drive.icns"
+cCpResource Finder.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Finder.icns"
+cCpResource Mac.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Mac.icns"
+cCpResource "System Preferences.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/System Preferences.icns"
+cCpResource Console.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Console.icns"
+cCpResource "Trash Full.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Trash Full.icns"
+cCpResource Folder.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Folder.icns"
+cCpResource Files.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Files.icns"
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/LilypondStrings.strings" LilypondStrings.strings
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/AppStrings.strings" AppStrings.strings
+cCopyPlistFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/InterfaceStrings.plist" InterfaceStrings.plist
+cCompileXIB "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MainMenu.xib"
+cProcessPCH /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.pth Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/MacOS/Harmony Combos" normal x86_64
+cTouch "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app"
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000004FF015DA00000000000000AA
+t1341134298
+s170
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050006E160000000000024C14
+t1342205462
+s150548
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000050006E1600000000000060B4
+t1342205462
+s24756
+
+N/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c0000000050006E1F000000000000962C
+t1342205471
+s38444
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005010FD8E0000000000006730
+t1343290766
+s26416
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/AppStrings.strings
+c000000004E147032000000000000017E
+t1309962290
+s382
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m
+c0000000050449D7900000000000068D9
+t1346674041
+s26841
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m
+c000000004E147D7D0000000000000B74
+t1309965693
+s2932
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m
+c000000004F62206000000000000023C3
+t1331830880
+s9155
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Console.icns
+c000000004AA90B02000000000003A48F
+t1252592386
+s238735
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m
+c000000004F638D15000000000000A263
+t1331924245
+s41571
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/InfoPlist.strings
+c000000004DACB27F00000000000002CA
+t1303163519
+s714
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Files.icns
+c000000004AA90ABE0000000000030DAA
+t1252592318
+s200106
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Finder.icns
+c000000004AA90B36000000000002C00A
+t1252592438
+s180234
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Folder.icns
+c000000004AA90B4200000000000260EC
+t1252592450
+s155884
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Hard Drive.icns
+c000000004AA90B840000000000024EFB
+t1252592516
+s151291
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/HarmonyCombos.icns
+c000000004D767618000000000003455C
+t1299609112
+s214364
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m
+c000000004E71CF770000000000000FD8
+t1316081527
+s4056
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_Combos_Prefix.pch
+c000000004D6FA892000000000000009F
+t1299163282
+s159
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m
+c000000004D8A14C600000000000007F3
+t1300894918
+s2035
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InterfaceStrings.plist
+c000000004E71CD350000000000000145
+t1316080949
+s325
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/LilypondStrings.strings
+c000000004F72F1070000000000000822
+t1332932871
+s2082
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Mac.icns
+c000000004AA90C10000000000002D8D0
+t1252592656
+s186576
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MainMenu.xib
+c0000000050449F640000000000059A55
+t1346674532
+s367189
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m
+c000000004D91FCCC0000000000001684
+t1301413068
+s5764
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m
+c000000004D8A17570000000000000AD8
+t1300895575
+s2776
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m
+c000000004D8EFFAF0000000000000910
+t1301217199
+s2320
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/System Preferences.icns
+c000000004AA90C720000000000045D57
+t1252592754
+s286039
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m
+c000000004D90811E0000000000000D2B
+t1301315870
+s3371
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m
+c000000004D8C831C00000000000005CF
+t1301054236
+s1487
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m
+c000000004D9080460000000000000DF9
+t1301315654
+s3577
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m
+c000000004D8C82A40000000000000243
+t1301054116
+s579
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m
+c000000004D8C82E40000000000000544
+t1301054180
+s1348
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Trash Full.icns
+c000000004AA90CAC0000000000044C6B
+t1252592812
+s281707
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/MacOS/Harmony Combos
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/AppStrings.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Console.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Files.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Finder.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Folder.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Hard Drive.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/InterfaceStrings.plist
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/LilypondStrings.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Mac.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/MainMenu.nib
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/System Preferences.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Trash Full.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos.LinkFileList
+c0000000050449F670000000000000A0E
+t1346674535
+s2574
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/InfoPlist.strings
+c000000004DACB28E0000000000000325
+t1303163534
+s805
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m
+c000000004F67520300000000000035A1
+t1332171267
+s13729
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m
+c000000004D8A1DF90000000000000105
+t1300897273
+s261
+
+N/var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.pth
+t2
+s0
+
+NHarmony_Combos-Info.plist
+c000000004F72F08200000000000007D0
+t1332932738
+s2000
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesac71fae6d6f4b541^fab313e7d6f4b541^---0#1#0#--18"Check dependencies36"FBA70F51-612D-40C1-81BF-BB130B26D4D5-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.161924
+e368367336.277502
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m49a029e8d6f4b541^910a47e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Cadenza.m0000000000000000^3595"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o" Cadenza.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o"36"F5B84A9C-386A-432D-B287-CECAA329B59F-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.161937
+e368367336.227293
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.md89e29e8d6f4b541^8c2f3ae8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Chord.m0000000000000000^3583"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.o" Chord.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Chord.o"36"A7A29698-A64A-413B-A1F2-73EE764376B5-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.161938
+e368367336.244759
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.me99a29e8d6f4b541^fca83ee8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Compositore.m0000000000000000^3619"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.o" Compositore.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Compositore.o"36"829F7BCE-8A40-463C-A3B4-05C73D4CD895-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.205583
+e368367336.421921
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.mc0cf34e8d6f4b541^8e026ce8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Controller.m0000000000000000^3613"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.o" Controller.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Controller.o"36"3F7B647A-C744-4D8B-8E8A-B5C1085BA0AD-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.161908
+e368367336.313465
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.md39f29e8d6f4b541^505250e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_CombosAppDelegate.m0000000000000000^3703"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o" Harmony_CombosAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o"36"93C6DA25-FE59-448A-BE3A-B7D889807729-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.161953
+e368367336.228857
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.mfe9d29e8d6f4b541^4f963ae8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/InsiemeNote.m0000000000000000^3619"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o" InsiemeNote.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o"36"7B1F0CA8-B058-40B4-B180-F5822317A1BF-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.278844
+e368367336.394458
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.mb89047e8d6f4b541^59fa64e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Midi_Interface.m0000000000000000^3637"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o" Midi_Interface.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o"36"D45B789C-75B6-49AC-9EF5-E82FF3E1DDC5-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.161962
+e368367336.226498
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m889d29e8d6f4b541^0dfb39e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/MtrxNVoices.m0000000000000000^3619"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o" MtrxNVoices.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o"36"DA89219F-6901-4927-B165-B72EDE4534E1-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.162181
+e368367336.241624
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.mf8aa29e8d6f4b541^adda3de8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Note.m0000000000000000^3577"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.o" Note.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Note.o"36"6565F5AD-959C-4D1F-AD5B-58D36D0573E3-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.230072
+e368367336.361305
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.mf9113be8d6f4b541^6a865ce8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewController.m0000000000000000^3667"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o" TableViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o"36"6675CD91-8E56-4264-8A98-AA2F853D9931-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.227776
+e368367336.361565
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.mfa7e3ae8d6f4b541^c7805ce8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSource.m0000000000000000^3667"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o" TableViewDataSource.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o"36"690B5F60-1BB6-4D65-8CBB-397D777111C0-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.246063
+e368367336.374568
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m1a313fe8d6f4b541^e4f65fe8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceCadenze.m0000000000000000^3709"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o" TableViewDataSourceCadenze.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o"36"E146A3D8-F59F-4878-94F2-DADCCF9E3835-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.243005
+e368367336.347978
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m82733ee8d6f4b541^6e1459e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceSistemaTemperato.m0000000000000000^3763"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o" TableViewDataSourceSistemaTemperato.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o"36"CF2295CF-3923-4D03-A93A-F3C01018EAE5-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.227783
+e368367336.348575
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.md3833ae8d6f4b541^d13b59e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceTonal.m0000000000000000^3697"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o" TableViewDataSourceTonal.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o"36"FB5954CF-9EB1-4337-994D-0366BC3754DA-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.314798
+e368367336.397438
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m4cc350e8d6f4b541^3cbe65e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/lilyInterface.m0000000000000000^3631"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o" lilyInterface.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o"36"E0D86AED-AAD2-4619-A4E8-935ABB817D72-
+
+CCompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367336.161900
+e368367336.204088
+r1
+xCompileC
+xbuild. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.mcb9d29e8d6f4b541^c93e34e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/main.m0000000000000000^3577"CompileC "build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.o" main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -include /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch -MMD -MT dependencies -MF "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.dia" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/main.o"36"08E92A40-FA11-4085-A32A-A829E66F3ED6-
+
+CCompileXIB "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MainMenu.xib"
+s368367335.117701
+e368367335.276436
+r1
+xCompileXIB
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Volumes/Programming/Programmazione/Tesi/Harmony Combos/MainMenu.xiba12e1ee7d6f4b541^c6c446e7d6f4b541^-40"/* com.apple.ibtool.document.warnings */1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar368367335#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@86"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/MainMenu.xib0000000000000000^643"CompileXIB MainMenu.xib    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode45-DP3.app/Contents/Developer/usr/bin/..    /Applications/Xcode45-DP3.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/MainMenu.nib" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MainMenu.xib" --sdk /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"7CDDC2EE-44E3-4C18-A979-A261B1264AFE-
+
+CCopyPlistFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/InterfaceStrings.plist" InterfaceStrings.plist
+s368367335.116462
+e368367335.124453
+r1
+xCopyPlistFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/InterfaceStrings.plist
+xInterfaceStrings.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Copy InterfaceStrings.plistd2e11de7d6f4b541^9cdc1fe7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/InterfaceStrings.plist0000000000000000^364"CopyPlistFile "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/InterfaceStrings.plist" InterfaceStrings.plist    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyPlist --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources" -- InterfaceStrings.plist36"8EB2B37A-E491-48E8-ACA8-0AB20F419093-
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/AppStrings.strings" AppStrings.strings
+s368367335.115304
+e368367335.127104
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/AppStrings.strings
+xAppStrings.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Copy AppStrings.stringse2901de7d6f4b541^c28920e7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/AppStrings.strings0000000000000000^413"CopyStringsFile "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/AppStrings.strings" AppStrings.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources" -- AppStrings.strings36"ABD73E46-6030-4582-8871-0BE40265FFA4-
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s368367335.105409
+e368367335.112090
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.stringsc2861be7d6f4b541^10b21ce7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/English.lproj/InfoPlist.strings0000000000000000^466"CopyStringsFile "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/English.lproj" -- English.lproj/InfoPlist.strings36"D5E66F06-CA88-47F0-B163-8CC20070E422-
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/LilypondStrings.strings" LilypondStrings.strings
+s368367335.114060
+e368367335.126937
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/LilypondStrings.strings
+xLilypondStrings.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy LilypondStrings.stringsfb3d1de7d6f4b541^567f20e7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/LilypondStrings.strings0000000000000000^428"CopyStringsFile "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/LilypondStrings.strings" LilypondStrings.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources" -- LilypondStrings.strings36"6C2C20E7-FD07-484C-83F1-B166AD275A5E-
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings" it.lproj/InfoPlist.strings
+s368367335.105418
+e368367335.111492
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings
+xit.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy it.lproj/InfoPlist.stringse8851be7d6f4b541^008b1ce7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/it.lproj/InfoPlist.strings0000000000000000^446"CopyStringsFile "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings" it.lproj/InfoPlist.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/it.lproj" -- it.lproj/InfoPlist.strings36"C9BF7F5C-0FFF-4632-B154-A638E6407BBB-
+
+CCpResource "Hard Drive.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Hard Drive.icns"
+s368367335.105471
+e368367335.115263
+r1
+xCpResource
+xHard Drive.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Hard Drive.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Hard Drive.icnsdf871be7d6f4b541^77821de7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/Hard%20Drive.icns000000000080d041^478"CpResource "Hard Drive.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Hard Drive.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Hard Drive.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"F6861E94-3DA3-4898-8B67-B29CD904E0E3-
+
+CCpResource "System Preferences.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/System Preferences.icns"
+s368367335.107016
+e368367335.116527
+r1
+xCpResource
+xSystem Preferences.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/System Preferences.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/System Preferences.icns83891be7d6f4b541^5ed51de7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/System%20Preferences.icns000000000080d041^502"CpResource "System Preferences.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/System Preferences.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/System Preferences.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"D16A5061-02CD-413E-A514-739FA6DB5F82-
+
+CCpResource "Trash Full.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Trash Full.icns"
+s368367335.110856
+e368367335.118720
+r1
+xCpResource
+xTrash Full.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Trash Full.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Trash Full.icnsb96c1ce7d6f4b541^80641ee7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/Trash%20Full.icns000000000080d041^478"CpResource "Trash Full.icns" "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Trash Full.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Trash Full.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"1201A908-8FA3-40F2-91C0-96AF774D8BA1-
+
+CCpResource Console.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Console.icns"
+s368367335.107427
+e368367335.117581
+r1
+xCpResource
+xConsole.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Console.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Console.icns57931be7d6f4b541^2e1a1ee7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/Console.icns000000000080d041^467"CpResource Console.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Console.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Console.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"2EA319EC-1A0E-44BD-B66E-509ADC0BEF64-
+
+CCpResource Files.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Files.icns"
+s368367335.112628
+e368367335.120874
+r1
+xCpResource
+xFiles.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Files.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Files.icnsf0df1ce7d6f4b541^edf11ee7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/Files.icns000000000080d041^461"CpResource Files.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Files.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Files.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"BB21EFE5-59F6-46CA-84CA-E21DD0D3E17F-
+
+CCpResource Finder.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Finder.icns"
+s368367335.105515
+e368367335.112948
+r1
+xCpResource
+xFinder.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Finder.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Finder.icns38871be7d6f4b541^14eb1ce7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/Finder.icns000000000080d041^464"CpResource Finder.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Finder.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Finder.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"0E37B1D2-74D8-46CD-B2B6-BA694F2824C8-
+
+CCpResource Folder.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Folder.icns"
+s368367335.112613
+e368367335.119695
+r1
+xCpResource
+xFolder.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Folder.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Folder.icns48df1ce7d6f4b541^caa41ee7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/Folder.icns000000000080d041^464"CpResource Folder.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Folder.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Folder.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"CAA80E73-D798-4F60-8354-09342E6A0BBF-
+
+CCpResource HarmonyCombos.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns"
+s368367335.105451
+e368367335.109618
+r1
+xCpResource
+xHarmonyCombos.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns83851be7d6f4b541^62101ce7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/HarmonyCombos.icns000000000080d041^485"CpResource HarmonyCombos.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/HarmonyCombos.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"02F7CDD3-75DF-4484-9DF8-C287C9ADEBCD-
+
+CCpResource Mac.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Mac.icns"
+s368367335.105505
+e368367335.114143
+r1
+xCpResource
+xMac.icns
+xbuild. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Mac.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Mac.icns6a871be7d6f4b541^de381de7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/build.%20%5BSYMROOT%5D/Debug/Harmony%20Combos.app/Contents/Resources/Mac.icns000000000080d041^455"CpResource Mac.icns "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources/Mac.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Mac.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Resources"36"48425D35-71A0-4074-BE72-6E8D6E85FAED-
+
+CLd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/MacOS/Harmony Combos" normal x86_64
+s368367336.428677
+e368367336.474921
+r1
+xLd
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/MacOS/Harmony Combos
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/MacOS/Harmony Combos9ece6de8d6f4b541^c09479e8d6f4b541^---0#0#0#--1042"Ld "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/MacOS/Harmony Combos" normal x86_64    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" -filelist "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos.LinkFileList" -mmacosx-version-min=10.6 -fobjc-link-runtime -framework CoreServices -framework AudioUnit -framework AudioToolbox -framework Cocoa -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/MacOS/Harmony Combos"36"A2A844A1-A724-4C03-92D0-5E3A869E0D19-
+
+CProcessInfoPlistFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Info.plist" Harmony_Combos-Info.plist
+s368367335.083079
+e368367335.086228
+r1
+xProcessInfoPlistFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Info.plist
+xHarmony_Combos-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process Harmony_Combos-Info.plistb55115e7d6f4b541^462816e7d6f4b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_Combos-Info.plist0000000000000000^533"ProcessInfoPlistFile "build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Info.plist" Harmony_Combos-Info.plist    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-infoPlistUtility Harmony_Combos-Info.plist -genpkginfo "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/PkgInfo" -expandbuildsettings -format xml -platform macosx -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app/Contents/Info.plist"36"367EA110-B913-40F6-91B6-1CC70E0B7C11-
+
+CProcessPCH /Users/guidoronchetti/Library/Developer/Xcode/DerivedData/Harmony_Combos-diidvolqwgxasfdlhmrolienwntq/Index/PrecompiledHeaders/Harmony_Combos_Prefix-epkgkratdzbjqucocdetwuyrenty_ast/Harmony_Combos_Prefix.pch.pth Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.pth Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368367335.284599
+e368367336.154876
+r1
+xProcessPCH
+x/var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.pth
+xHarmony_Combos_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Harmony_Combos_Prefix.pch810449e7d6f4b541^a0a527e8d6f4b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_Combos_Prefix.pch0000000000000000^3588"ProcessPCH /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.pth Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Harmony Combos.build/Debug/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug" --serialize-diagnostics /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.dia -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_Combos_Prefix.pch" -o /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/kb/751ml5997jz7kcbxnsn0lhkr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Harmony_Combos_Prefix-ddbhosjptxxastbkwsvbsfcabfai/Harmony_Combos_Prefix.pch.d36"C8D749AC-6C6F-44E7-AB68-0B4DBADBC5F9-
+
+CTouch "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app"
+s368367336.492472
+e368367336.506899
+r1
+xTouch
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Touch /Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.appc13a7ee8d6f4b541^7fc281e8d6f4b541^---0#0#0#--237"Touch "build. [SYMROOT]/Debug/Harmony Combos.app"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    /usr/bin/touch -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/build. [SYMROOT]/Debug/Harmony Combos.app"36"3F721926-CE9C-442C-AA50-DDD2250F7380-
+

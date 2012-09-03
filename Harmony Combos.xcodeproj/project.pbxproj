@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1996AB3F133A63570044427D /* Hard Drive.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1996AB3E133A63570044427D /* Hard Drive.icns */; };
+		1996AB41133A636B0044427D /* Finder.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1996AB40133A636B0044427D /* Finder.icns */; };
+		1996AB43133A637E0044427D /* Mac.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1996AB42133A637E0044427D /* Mac.icns */; };
+		1996AB45133A64290044427D /* System Preferences.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1996AB44133A64290044427D /* System Preferences.icns */; };
+		1996AB50133A645A0044427D /* Console.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1996AB4F133A645A0044427D /* Console.icns */; };
+		1996AB52133A648A0044427D /* Trash Full.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1996AB51133A648A0044427D /* Trash Full.icns */; };
+		1996AB55133A64DE0044427D /* Folder.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1996AB54133A64DE0044427D /* Folder.icns */; };
+		19A047BA1321B92F00C6DE13 /* TableViewDataSourceTonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A047B91321B92F00C6DE13 /* TableViewDataSourceTonal.m */; };
+		19A0E1F41326ADBC00BF3325 /* HarmonyCombos.icns in Resources */ = {isa = PBXBuildFile; fileRef = 19A0E1F31326ADBC00BF3325 /* HarmonyCombos.icns */; };
+		19A36B461323CCB700437FF2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A36B451323CCB700437FF2 /* TableViewController.m */; };
+		19A36CA01323FBCC00437FF2 /* TableViewDataSourceSistemaTemperato.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A36C9F1323FBCC00437FF2 /* TableViewDataSourceSistemaTemperato.m */; };
+		19A8685E13255B6900BFFC11 /* TableViewDataSourceCadenze.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A8685D13255B6900BFFC11 /* TableViewDataSourceCadenze.m */; };
+		19A9BE74133FAC4200027516 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A9BE73133FAC4200027516 /* AudioToolbox.framework */; };
+		19A9BE76133FAC5C00027516 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A9BE75133FAC5C00027516 /* AudioUnit.framework */; };
+		19A9BE78133FAC7600027516 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A9BE77133FAC7600027516 /* CoreServices.framework */; };
+		19A9BE7E133FAD0100027516 /* Midi_Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A9BE7D133FAD0100027516 /* Midi_Interface.m */; };
+		19ACDA1E13BF1A4500E35262 /* AppStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19ACDA1D13BF1A4500E35262 /* AppStrings.strings */; };
+		19B08661134DAA6600A6EF77 /* LilypondStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B08660134DAA6600A6EF77 /* LilypondStrings.strings */; };
+		19B08664134DB16900A6EF77 /* lilyInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B08663134DB16900A6EF77 /* lilyInterface.m */; };
+		19B14613133CF4E800B2F6A0 /* Files.icns in Resources */ = {isa = PBXBuildFile; fileRef = 19B14612133CF4E800B2F6A0 /* Files.icns */; };
+		19B9059913204E71009231F1 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B9059813204E71009231F1 /* TableViewDataSource.m */; };
+		19B98495131FF480003AA3EC /* Cadenza.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B9848E131FF480003AA3EC /* Cadenza.m */; };
+		19B98496131FF480003AA3EC /* Chord.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B98490131FF480003AA3EC /* Chord.m */; };
+		19B98497131FF480003AA3EC /* Compositore.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B98492131FF480003AA3EC /* Compositore.m */; };
+		19B984A0131FF49E003AA3EC /* InsiemeNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B9849B131FF49E003AA3EC /* InsiemeNote.m */; };
+		19B984A1131FF49E003AA3EC /* MtrxNVoices.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B9849D131FF49E003AA3EC /* MtrxNVoices.m */; };
+		19B984A2131FF49E003AA3EC /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B9849F131FF49E003AA3EC /* Note.m */; };
+		19B984BC131FF6DF003AA3EC /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B984BB131FF6DF003AA3EC /* Controller.m */; };
+		19C05B6B14234E04002F073A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C05B6A14234E04002F073A /* MainMenu.xib */; };
+		19C8FDE61422036A00EF0286 /* InterfaceStrings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19C8FDE51422036A00EF0286 /* InterfaceStrings.plist */; };
+		256AC3DA0F4B6AC300CF3369 /* Harmony_CombosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* Harmony_CombosAppDelegate.m */; };
+		5641D83F15F4F1C800E977F0 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 5641D83E15F4F1C800E977F0 /* LICENSE.md */; };
+		56D1E9E715F4D85800901E86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 56D1E9E615F4D85800901E86 /* README.md */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1996AB3E133A63570044427D /* Hard Drive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Hard Drive.icns"; sourceTree = "<group>"; };
+		1996AB40133A636B0044427D /* Finder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Finder.icns; sourceTree = "<group>"; };
+		1996AB42133A637E0044427D /* Mac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Mac.icns; sourceTree = "<group>"; };
+		1996AB44133A64290044427D /* System Preferences.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "System Preferences.icns"; sourceTree = "<group>"; };
+		1996AB4F133A645A0044427D /* Console.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Console.icns; sourceTree = "<group>"; };
+		1996AB51133A648A0044427D /* Trash Full.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Trash Full.icns"; sourceTree = "<group>"; };
+		1996AB54133A64DE0044427D /* Folder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Folder.icns; sourceTree = "<group>"; };
+		19A047B81321B92F00C6DE13 /* TableViewDataSourceTonal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSourceTonal.h; sourceTree = "<group>"; };
+		19A047B91321B92F00C6DE13 /* TableViewDataSourceTonal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSourceTonal.m; sourceTree = "<group>"; };
+		19A0A00F133F4833005B435A /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		19A0E1F31326ADBC00BF3325 /* HarmonyCombos.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HarmonyCombos.icns; sourceTree = "<group>"; };
+		19A36B441323CCB700437FF2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		19A36B451323CCB700437FF2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		19A36B471323CCEF00437FF2 /* TableViewDataSourceHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSourceHeader.h; sourceTree = "<group>"; };
+		19A36B481323CDB100437FF2 /* AlgorithmHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmHeader.h; sourceTree = "<group>"; };
+		19A36B491323CECB00437FF2 /* UnionClassHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionClassHeader.h; sourceTree = "<group>"; };
+		19A36C9E1323FBCC00437FF2 /* TableViewDataSourceSistemaTemperato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSourceSistemaTemperato.h; sourceTree = "<group>"; };
+		19A36C9F1323FBCC00437FF2 /* TableViewDataSourceSistemaTemperato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSourceSistemaTemperato.m; sourceTree = "<group>"; };
+		19A8685C13255B6900BFFC11 /* TableViewDataSourceCadenze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSourceCadenze.h; sourceTree = "<group>"; };
+		19A8685D13255B6900BFFC11 /* TableViewDataSourceCadenze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSourceCadenze.m; sourceTree = "<group>"; };
+		19A9BE73133FAC4200027516 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		19A9BE75133FAC5C00027516 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		19A9BE77133FAC7600027516 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		19A9BE7C133FAD0100027516 /* Midi_Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Midi_Interface.h; sourceTree = "<group>"; };
+		19A9BE7D133FAD0100027516 /* Midi_Interface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Midi_Interface.m; sourceTree = "<group>"; };
+		19ACDA1D13BF1A4500E35262 /* AppStrings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AppStrings.strings; sourceTree = "<group>"; };
+		19B08660134DAA6600A6EF77 /* LilypondStrings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = LilypondStrings.strings; sourceTree = "<group>"; };
+		19B08662134DB16900A6EF77 /* lilyInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lilyInterface.h; sourceTree = "<group>"; };
+		19B08663134DB16900A6EF77 /* lilyInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lilyInterface.m; sourceTree = "<group>"; };
+		19B14612133CF4E800B2F6A0 /* Files.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Files.icns; sourceTree = "<group>"; };
+		19B9059713204E71009231F1 /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		19B9059813204E71009231F1 /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		19B9848D131FF480003AA3EC /* Cadenza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cadenza.h; sourceTree = "<group>"; };
+		19B9848E131FF480003AA3EC /* Cadenza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cadenza.m; sourceTree = "<group>"; };
+		19B9848F131FF480003AA3EC /* Chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chord.h; sourceTree = "<group>"; };
+		19B98490131FF480003AA3EC /* Chord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chord.m; sourceTree = "<group>"; };
+		19B98491131FF480003AA3EC /* Compositore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compositore.h; sourceTree = "<group>"; };
+		19B98492131FF480003AA3EC /* Compositore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compositore.m; sourceTree = "<group>"; };
+		19B98493131FF480003AA3EC /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		19B98494131FF480003AA3EC /* Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		19B9849A131FF49E003AA3EC /* InsiemeNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsiemeNote.h; sourceTree = "<group>"; };
+		19B9849B131FF49E003AA3EC /* InsiemeNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsiemeNote.m; sourceTree = "<group>"; };
+		19B9849C131FF49E003AA3EC /* MtrxNVoices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtrxNVoices.h; sourceTree = "<group>"; };
+		19B9849D131FF49E003AA3EC /* MtrxNVoices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtrxNVoices.m; sourceTree = "<group>"; };
+		19B9849E131FF49E003AA3EC /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		19B9849F131FF49E003AA3EC /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		19B984BA131FF6DF003AA3EC /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		19B984BB131FF6DF003AA3EC /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		19C05B6A14234E04002F073A /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		19C7E8E8133E37C200C57BDD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
+		19C8FDE51422036A00EF0286 /* InterfaceStrings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InterfaceStrings.plist; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* Harmony_CombosAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Harmony_CombosAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* Harmony_CombosAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Harmony_CombosAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Harmony_Combos_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Harmony_Combos_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		562C14A115061C4C00A7AB50 /* Harmony Combos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Harmony Combos.entitlements"; path = "Harmony Combos/Harmony Combos.entitlements"; sourceTree = "<group>"; };
+		5641D83E15F4F1C800E977F0 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		56D1E9E615F4D85800901E86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Harmony_Combos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Harmony_Combos-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Harmony Combos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harmony Combos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A9BE78133FAC7600027516 /* CoreServices.framework in Frameworks */,
+				19A9BE76133FAC5C00027516 /* AudioUnit.framework in Frameworks */,
+				19A9BE74133FAC4200027516 /* AudioToolbox.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				19B0865F134DAA2500A6EF77 /* Lilypond Interface */,
+				19A9BE79133FAC9100027516 /* MIDI Interface */,
+				19B98494131FF480003AA3EC /* Headers.h */,
+				19B984AB131FF4EA003AA3EC /* Global Variables */,
+				19B984A5131FF4A9003AA3EC /* Models */,
+				19A36B3F1323CC5D00437FF2 /* Controllers */,
+				19C7E8E6133E302E00C57BDD /* Views */,
+				19A36B4C1323CF8E00437FF2 /* Delegates */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19A0A00F133F4833005B435A /* AudioUnit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19A9BE77133FAC7600027516 /* CoreServices.framework */,
+				19A9BE75133FAC5C00027516 /* AudioUnit.framework */,
+				19A9BE73133FAC4200027516 /* AudioToolbox.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1996AB48133A64320044427D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				19B14612133CF4E800B2F6A0 /* Files.icns */,
+				1996AB54133A64DE0044427D /* Folder.icns */,
+				1996AB51133A648A0044427D /* Trash Full.icns */,
+				1996AB4F133A645A0044427D /* Console.icns */,
+				19A0E1F31326ADBC00BF3325 /* HarmonyCombos.icns */,
+				1996AB44133A64290044427D /* System Preferences.icns */,
+				1996AB42133A637E0044427D /* Mac.icns */,
+				1996AB40133A636B0044427D /* Finder.icns */,
+				1996AB3E133A63570044427D /* Hard Drive.icns */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		19A36B3F1323CC5D00437FF2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				19B984BA131FF6DF003AA3EC /* Controller.h */,
+				19B984BB131FF6DF003AA3EC /* Controller.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		19A36B421323CC7200437FF2 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				19A36B471323CCEF00437FF2 /* TableViewDataSourceHeader.h */,
+				19B9059713204E71009231F1 /* TableViewDataSource.h */,
+				19B9059813204E71009231F1 /* TableViewDataSource.m */,
+				19A047B81321B92F00C6DE13 /* TableViewDataSourceTonal.h */,
+				19A047B91321B92F00C6DE13 /* TableViewDataSourceTonal.m */,
+				19A36C9E1323FBCC00437FF2 /* TableViewDataSourceSistemaTemperato.h */,
+				19A36C9F1323FBCC00437FF2 /* TableViewDataSourceSistemaTemperato.m */,
+				19A8685C13255B6900BFFC11 /* TableViewDataSourceCadenze.h */,
+				19A8685D13255B6900BFFC11 /* TableViewDataSourceCadenze.m */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		19A36B4C1323CF8E00437FF2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* Harmony_CombosAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* Harmony_CombosAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		19A9BE79133FAC9100027516 /* MIDI Interface */ = {
+			isa = PBXGroup;
+			children = (
+				19A9BE7C133FAD0100027516 /* Midi_Interface.h */,
+				19A9BE7D133FAD0100027516 /* Midi_Interface.m */,
+			);
+			name = "MIDI Interface";
+			sourceTree = "<group>";
+		};
+		19B0865F134DAA2500A6EF77 /* Lilypond Interface */ = {
+			isa = PBXGroup;
+			children = (
+				19B08660134DAA6600A6EF77 /* LilypondStrings.strings */,
+				19B08662134DB16900A6EF77 /* lilyInterface.h */,
+				19B08663134DB16900A6EF77 /* lilyInterface.m */,
+			);
+			name = "Lilypond Interface";
+			sourceTree = "<group>";
+		};
+		19B984A5131FF4A9003AA3EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19B984A8131FF4D7003AA3EC /* Union Classes */,
+				19BCC3D0133A37E200610B5F /* Oggetti */,
+				19A36B481323CDB100437FF2 /* AlgorithmHeader.h */,
+				19B98491131FF480003AA3EC /* Compositore.h */,
+				19B98492131FF480003AA3EC /* Compositore.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		19B984A8131FF4D7003AA3EC /* Union Classes */ = {
+			isa = PBXGroup;
+			children = (
+				19A36B491323CECB00437FF2 /* UnionClassHeader.h */,
+				19B9849C131FF49E003AA3EC /* MtrxNVoices.h */,
+				19B9849D131FF49E003AA3EC /* MtrxNVoices.m */,
+			);
+			name = "Union Classes";
+			sourceTree = "<group>";
+		};
+		19B984AB131FF4EA003AA3EC /* Global Variables */ = {
+			isa = PBXGroup;
+			children = (
+				19B98493131FF480003AA3EC /* GlobalVariables.h */,
+			);
+			name = "Global Variables";
+			sourceTree = "<group>";
+		};
+		19BCC3D0133A37E200610B5F /* Oggetti */ = {
+			isa = PBXGroup;
+			children = (
+				19ACDA1D13BF1A4500E35262 /* AppStrings.strings */,
+				19B9849E131FF49E003AA3EC /* Note.h */,
+				19B9849F131FF49E003AA3EC /* Note.m */,
+				19B9848D131FF480003AA3EC /* Cadenza.h */,
+				19B9848E131FF480003AA3EC /* Cadenza.m */,
+				19B9848F131FF480003AA3EC /* Chord.h */,
+				19B98490131FF480003AA3EC /* Chord.m */,
+				19B9849A131FF49E003AA3EC /* InsiemeNote.h */,
+				19B9849B131FF49E003AA3EC /* InsiemeNote.m */,
+			);
+			name = Oggetti;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Harmony Combos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C7E8E6133E302E00C57BDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19A36B441323CCB700437FF2 /* TableViewController.h */,
+				19A36B451323CCB700437FF2 /* TableViewController.m */,
+				19A36B421323CC7200437FF2 /* Data Sources */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Harmony Combos */ = {
+			isa = PBXGroup;
+			children = (
+				5641D83E15F4F1C800E977F0 /* LICENSE.md */,
+				56D1E9E615F4D85800901E86 /* README.md */,
+				562C14A115061C4C00A7AB50 /* Harmony Combos.entitlements */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Harmony Combos";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Harmony_Combos_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19C05B6A14234E04002F073A /* MainMenu.xib */,
+				1996AB48133A64320044427D /* Icons */,
+				8D1107310486CEB800E47090 /* Harmony_Combos-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				19C8FDE51422036A00EF0286 /* InterfaceStrings.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Harmony Combos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Harmony Combos" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harmony Combos";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Harmony Combos";
+			productReference = 8D1107320486CEB800E47090 /* Harmony Combos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Harmony Combos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Harmony Combos */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Harmony Combos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				19A0E1F41326ADBC00BF3325 /* HarmonyCombos.icns in Resources */,
+				1996AB3F133A63570044427D /* Hard Drive.icns in Resources */,
+				1996AB41133A636B0044427D /* Finder.icns in Resources */,
+				1996AB43133A637E0044427D /* Mac.icns in Resources */,
+				1996AB45133A64290044427D /* System Preferences.icns in Resources */,
+				1996AB50133A645A0044427D /* Console.icns in Resources */,
+				1996AB52133A648A0044427D /* Trash Full.icns in Resources */,
+				1996AB55133A64DE0044427D /* Folder.icns in Resources */,
+				19B14613133CF4E800B2F6A0 /* Files.icns in Resources */,
+				19B08661134DAA6600A6EF77 /* LilypondStrings.strings in Resources */,
+				19ACDA1E13BF1A4500E35262 /* AppStrings.strings in Resources */,
+				19C8FDE61422036A00EF0286 /* InterfaceStrings.plist in Resources */,
+				19C05B6B14234E04002F073A /* MainMenu.xib in Resources */,
+				56D1E9E715F4D85800901E86 /* README.md in Resources */,
+				5641D83F15F4F1C800E977F0 /* LICENSE.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* Harmony_CombosAppDelegate.m in Sources */,
+				19B98495131FF480003AA3EC /* Cadenza.m in Sources */,
+				19B98496131FF480003AA3EC /* Chord.m in Sources */,
+				19B98497131FF480003AA3EC /* Compositore.m in Sources */,
+				19B984A0131FF49E003AA3EC /* InsiemeNote.m in Sources */,
+				19B984A1131FF49E003AA3EC /* MtrxNVoices.m in Sources */,
+				19B984A2131FF49E003AA3EC /* Note.m in Sources */,
+				19B984BC131FF6DF003AA3EC /* Controller.m in Sources */,
+				19B9059913204E71009231F1 /* TableViewDataSource.m in Sources */,
+				19A047BA1321B92F00C6DE13 /* TableViewDataSourceTonal.m in Sources */,
+				19A36B461323CCB700437FF2 /* TableViewController.m in Sources */,
+				19A36CA01323FBCC00437FF2 /* TableViewDataSourceSistemaTemperato.m in Sources */,
+				19A8685E13255B6900BFFC11 /* TableViewDataSourceCadenze.m in Sources */,
+				19A9BE7E133FAD0100027516 /* Midi_Interface.m in Sources */,
+				19B08664134DB16900A6EF77 /* lilyInterface.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				19C7E8E8133E37C200C57BDD /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Harmony Combos/Harmony Combos.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.13;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Harmony_Combos_Prefix.pch;
+				INFOPLIST_FILE = "Harmony_Combos-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Harmony Combos";
+				SYMROOT = "$(PROJECT_DIR)/build. [SYMROOT]";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Harmony Combos/Harmony Combos.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.13;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Harmony_Combos_Prefix.pch;
+				INFOPLIST_FILE = "Harmony_Combos-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Harmony Combos";
+				SYMROOT = "$(PROJECT_DIR)/build. [SYMROOT]";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CURRENT_PROJECT_VERSION = 0.91;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				ONLY_ACTIVE_ARCH = YES;
+				PLIST_FILE_OUTPUT_FORMAT = xml;
+				SDKROOT = macosx;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CURRENT_PROJECT_VERSION = 0.91;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = NO;
+				GCC_ENABLE_SSE41_EXTENSIONS = NO;
+				GCC_ENABLE_SSE42_EXTENSIONS = NO;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = NO;
+				GCC_OBJC_CALL_CXX_CDTORS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				ONLY_ACTIVE_ARCH = NO;
+				PLIST_FILE_OUTPUT_FORMAT = xml;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Harmony Combos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Harmony Combos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

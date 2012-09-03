@@ -1,0 +1,15 @@
+/* 
+  AppStrings.strings
+  Harmony Combos
+
+  Created by Guido Ronchetti on 7/2/11.
+  Copyright 2011 Dysto Productions. All rights reserved.
+*/
+"str.dominante.late" = "dl";
+"str.dominante.stretteA" = "dss";
+"str.dominante.stretteB" = "dsb";
+"str.tonica.late" = "tl";
+"str.tonica.stretteA" = "tss";
+"str.tonica.stretteB" = "tsb";
+"str.dominante.any" = "dna";
+"str.tonica.any" = "tna";

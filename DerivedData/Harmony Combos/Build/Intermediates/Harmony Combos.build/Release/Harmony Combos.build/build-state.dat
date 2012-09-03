@@ -1,0 +1,1346 @@
+THarmony Combos
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Info.plist" Harmony_Combos-Info.plist
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings" it.lproj/InfoPlist.strings
+cCompileXIB "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/MainMenu.xib"
+cCompileXIB "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/MainMenu.xib"
+cCpResource HarmonyCombos.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns"
+cCpResource "Hard Drive.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Hard Drive.icns"
+cCpResource Finder.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Finder.icns"
+cCpResource Mac.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Mac.icns"
+cCpResource "System Preferences.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/System Preferences.icns"
+cCpResource Console.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Console.icns"
+cCpResource Folder.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Folder.icns"
+cCpResource "Trash Full.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Trash Full.icns"
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/LilypondStrings.strings" LilypondStrings.strings
+cCpResource Files.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Files.icns"
+cCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/AppStrings.strings" AppStrings.strings
+cProcessPCH "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/main.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Chord.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Compositore.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Note.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Controller.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/main.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony_CombosAppDelegate.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Cadenza.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Chord.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Compositore.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/InsiemeNote.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/MtrxNVoices.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Note.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Controller.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSource.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceTonal.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewController.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceSistemaTemperato.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceCadenze.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos" normal x86_64
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Midi_Interface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/lilyInterface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos" normal i386
+cCreateUniversalBinary "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos" normal "x86_64 i386"
+cGenerateDSYMFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app.dSYM" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos"
+cTouch "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E0DD7AA00000000000000EE
+t1309530026
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004DA341E70000000000025CE0
+t1302544871
+s154848
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC400730000000000000A22
+t1287913587
+s2594
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004DA341E70000000000005FA8
+t1302544871
+s24488
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004CC40066000000000000041D
+t1287913574
+s1053
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004DA341E7000000000001A854
+t1302544871
+s108628
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/AlgorithmHeader.h
+c000000004D8A14DB00000000000000B2
+t1300894939
+s178
+i"Compositore.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/AppStrings.strings
+c000000004E147032000000000000017E
+t1309962290
+s382
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.h
+c000000004E147E1900000000000004C6
+t1309965849
+s1222
+i<Cocoa/Cocoa.h>
+i"Chord.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m
+c000000004E1AC0F300000000000058D9
+t1310376179
+s22745
+i"Cadenza.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.h
+c000000004E14788100000000000002CA
+t1309964417
+s714
+i<Cocoa/Cocoa.h>
+i"Note.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m
+c000000004E147D7D0000000000000B74
+t1309965693
+s2932
+i"Chord.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.h
+c000000004D94BA1C000000000000075C
+t1301592604
+s1884
+i<Cocoa/Cocoa.h>
+i"GlobalVariables.h"
+i"Cadenza.h"
+i"InsiemeNote.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m
+c000000004E1441EA00000000000021B1
+t1309950442
+s8625
+i"Compositore.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Console.icns
+c000000004AA90B02000000000003A48F
+t1252592386
+s238735
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.h
+c000000004D9F6B9700000000000011EF
+t1302293399
+s4591
+i"TableViewController.h"
+i"Harmony_CombosAppDelegate.h"
+i"TableViewDataSourceHeader.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m
+c000000004E14424D0000000000009F03
+t1309950541
+s40707
+i"Controller.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Cadenza.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Chord.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Compositore.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Controller.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos.LinkFileList
+c000000004E1AC4110000000000000BEE
+t1310376977
+s3054
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony_CombosAppDelegate.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/InsiemeNote.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Midi_Interface.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/MtrxNVoices.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Note.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewController.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSource.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceCadenze.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceSistemaTemperato.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceTonal.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/lilyInterface.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Chord.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Compositore.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Controller.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos.LinkFileList
+c000000004E1AC4110000000000000C0E
+t1310376977
+s3086
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Note.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch.pth
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch.pth
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app.dSYM
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/AppStrings.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Console.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Files.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Finder.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Folder.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Hard Drive.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/LilypondStrings.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Mac.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/System Preferences.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Trash Full.icns
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj/MainMenu.nib
+t2
+s0
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/InfoPlist.strings
+c000000004DACB27F00000000000002CA
+t1303163519
+s714
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/MainMenu.xib
+c000000004E0EEF380000000000061634
+t1309601592
+s398900
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Files.icns
+c000000004AA90ABE0000000000030DAA
+t1252592318
+s200106
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Finder.icns
+c000000004AA90B36000000000002C00A
+t1252592438
+s180234
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Folder.icns
+c000000004AA90B4200000000000260EC
+t1252592450
+s155884
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/GlobalVariables.h
+c000000004E1AC3D200000000000008D6
+t1310376914
+s2262
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Hard Drive.icns
+c000000004AA90B840000000000024EFB
+t1252592516
+s151291
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/HarmonyCombos.icns
+c000000004D767618000000000003455C
+t1299609112
+s214364
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.h
+c000000004D9F6BFF0000000000000245
+t1302293503
+s581
+i"Headers.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m
+c000000004D9F6BF700000000000009CB
+t1302293495
+s2507
+i"Harmony_CombosAppDelegate.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_Combos_Prefix.pch
+c000000004D6FA892000000000000009F
+t1299163282
+s159
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Headers.h
+c000000004D9DA9860000000000000112
+t1302178182
+s274
+i<Cocoa/Cocoa.h>
+i"AlgorithmHeader.h"
+i"UnionClassHeader.h"
+i"Midi_Interface.h"
+i"lilyInterface.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.h
+c000000004D8A144300000000000002B6
+t1300894787
+s694
+i<Cocoa/Cocoa.h>
+i"Note.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m
+c000000004D8A14C600000000000007F3
+t1300894918
+s2035
+i"InsiemeNote.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/LilypondStrings.strings
+c000000004E14430B00000000000004DA
+t1309950731
+s1242
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Mac.icns
+c000000004AA90C10000000000002D8D0
+t1252592656
+s186576
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.h
+c000000004D9063D80000000000000434
+t1301308376
+s1076
+i<Cocoa/Cocoa.h>
+i<AudioUnit/AudioUnit.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m
+c000000004D91FCCC0000000000001684
+t1301413068
+s5764
+i"Midi_Interface.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.h
+c000000004D8A172B000000000000031B
+t1300895531
+s795
+i<Cocoa/Cocoa.h>
+i"AlgorithmHeader.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m
+c000000004D8A17570000000000000AD8
+t1300895575
+s2776
+i"MtrxNVoices.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.h
+c000000004D8A142C0000000000000269
+t1300894764
+s617
+i<Cocoa/Cocoa.h>
+i"GlobalVariables.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m
+c000000004D8EFFAF0000000000000910
+t1301217199
+s2320
+i"Note.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/System Preferences.icns
+c000000004AA90C720000000000045D57
+t1252592754
+s286039
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.h
+c000000004D90778A0000000000000536
+t1301313418
+s1334
+i"TableViewDataSourceHeader.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m
+c000000004D90811E0000000000000D2B
+t1301315870
+s3371
+i"TableViewController.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.h
+c000000004D8DFA660000000000000292
+t1301150310
+s658
+i"Headers.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m
+c000000004D8C831C00000000000005CF
+t1301054236
+s1487
+i"TableViewDataSource.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.h
+c000000004D9077AD0000000000000599
+t1301313453
+s1433
+i"Headers.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m
+c000000004D9080460000000000000DF9
+t1301315654
+s3577
+i"TableViewDataSourceCadenze.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceHeader.h
+c000000004D752A4B0000000000000141
+t1299524171
+s321
+i"TableViewDataSource.h"
+i"TableViewDataSourceTonal.h"
+i"TableViewDataSourceSistemaTemperato.h"
+i"TableViewDataSourceCadenze.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.h
+c000000004D8DFA8400000000000001E3
+t1301150340
+s483
+i"Headers.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m
+c000000004D8C82A40000000000000243
+t1301054116
+s579
+i"TableViewDataSourceSistemaTemperato.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.h
+c000000004D8DFA75000000000000029D
+t1301150325
+s669
+i"Headers.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m
+c000000004D8C82E40000000000000544
+t1301054180
+s1348
+i"TableViewDataSourceTonal.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Trash Full.icns
+c000000004AA90CAC0000000000044C6B
+t1252592812
+s281707
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/UnionClassHeader.h
+c000000004D8A14F000000000000000B3
+t1300894960
+s179
+i"MtrxNVoices.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/InfoPlist.strings
+c000000004DACB28E0000000000000325
+t1303163534
+s805
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/MainMenu.xib
+c000000004D9F7D510000000000060650
+t1302297937
+s394832
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.h
+c000000004E147FE40000000000000429
+t1309966308
+s1065
+i<Cocoa/Cocoa.h>
+i"GlobalVariables.h"
+i"Cadenza.h"
+i"Note.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m
+c000000004E1480750000000000003287
+t1309966453
+s12935
+i"lilyInterface.h"
+
+N/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m
+c000000004D8A1DF90000000000000105
+t1300897273
+s261
+i<Cocoa/Cocoa.h>
+
+NHarmony_Combos-Info.plist
+c000000004E1AC21000000000000007D0
+t1310376464
+s2000
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m"
+r0
+
+CBuild AST from "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies92238191fbcab341^5e4c8791fbcab341^---0#1#0#--18"Check dependencies
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Cadenza.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.154569
+e332069779.249496
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Cadenza.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m09c02793fbcab341^66dd3f93fbcab341^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Cadenza.m0000000000000000^2584"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Cadenza.o" Cadenza.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Cadenza.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Chord.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.156844
+e332069779.211474
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Chord.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m944e2893fbcab341^b62d3693fbcab341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Chord.m0000000000000000^2576"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Chord.o" Chord.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Chord.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Compositore.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.175954
+e332069779.249499
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Compositore.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m6b2c2d93fbcab341^e3e33f93fbcab341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Compositore.m0000000000000000^2600"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Compositore.o" Compositore.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Compositore.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Controller.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.213292
+e332069779.409335
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Controller.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m36ce3693fbcab341^86c96893fbcab341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Controller.m0000000000000000^2596"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Controller.o" Controller.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Controller.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony_CombosAppDelegate.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.147552
+e332069779.336198
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony_CombosAppDelegate.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m03ea2593fbcab341^66115693fbcab341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_CombosAppDelegate.m0000000000000000^2656"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony_CombosAppDelegate.o" Harmony_CombosAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony_CombosAppDelegate.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/InsiemeNote.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.177283
+e332069779.227745
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/InsiemeNote.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m0b7c2d93fbcab341^0e4c3a93fbcab341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/InsiemeNote.m0000000000000000^2600"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/InsiemeNote.o" InsiemeNote.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/InsiemeNote.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Midi_Interface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.313486
+e332069779.384238
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Midi_Interface.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m57b15093fbcab341^295d6293fbcab341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Midi_Interface.m0000000000000000^2612"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Midi_Interface.o" Midi_Interface.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Midi_Interface.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/MtrxNVoices.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.186362
+e332069779.236694
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/MtrxNVoices.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m94de2f93fbcab341^89963c93fbcab341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/MtrxNVoices.m0000000000000000^2600"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/MtrxNVoices.o" MtrxNVoices.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/MtrxNVoices.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Note.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.195504
+e332069779.244949
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Note.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m6d3a3293fbcab341^03b33e93fbcab341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Note.m0000000000000000^2572"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Note.o" Note.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Note.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewController.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.246171
+e332069779.335428
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewController.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.mf12e3f93fbcab341^75e75593fbcab341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewController.m0000000000000000^2632"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewController.o" TableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewController.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSource.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.228985
+e332069779.312251
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSource.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m60c83a93fbcab341^52805093fbcab341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSource.m0000000000000000^2632"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSource.o" TableViewDataSource.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSource.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceCadenze.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.251318
+e332069779.336267
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceCadenze.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m9e7a4093fbcab341^83165693fbcab341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceCadenze.m0000000000000000^2660"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceCadenze.o" TableViewDataSourceCadenze.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceCadenze.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceSistemaTemperato.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.250694
+e332069779.326504
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceSistemaTemperato.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m26544093fbcab341^10945393fbcab341^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceSistemaTemperato.m0000000000000000^2696"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceSistemaTemperato.o" TableViewDataSourceSistemaTemperato.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceSistemaTemperato.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceTonal.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.237932
+e332069779.316179
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceTonal.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.mdc123d93fbcab341^30f05093fbcab341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceTonal.m0000000000000000^2652"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceTonal.o" TableViewDataSourceTonal.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/TableViewDataSourceTonal.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/lilyInterface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.317394
+e332069779.375186
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/lilyInterface.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m4c715193fbcab341^cc0b6093fbcab341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/lilyInterface.m0000000000000000^2608"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/lilyInterface.o" lilyInterface.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/lilyInterface.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/main.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.146712
+e332069779.176128
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/main.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m1cb62593fbcab341^55162d93fbcab341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/main.m0000000000000000^2572"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/main.o" main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/main.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.916595
+e332069779.096763
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m12bfea92fbcab341^8cd71893fbcab341^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Cadenza.m0000000000000000^2594"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o" Cadenza.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Cadenza.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Cadenza.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Chord.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.917018
+e332069779.043956
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Chord.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m2ee7ea92fbcab341^0c400b93fbcab341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Chord.m0000000000000000^2586"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Chord.o" Chord.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Chord.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Chord.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Compositore.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.917037
+e332069779.076659
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Compositore.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.madddea92fbcab341^b2a11393fbcab341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Compositore.m0000000000000000^2610"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Compositore.o" Compositore.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Compositore.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Compositore.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Controller.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.028485
+e332069779.265537
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Controller.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.ma3760793fbcab341^98f84393fbcab341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Controller.m0000000000000000^2606"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Controller.o" Controller.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Controller.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Controller.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.916612
+e332069779.100515
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m51c0ea92fbcab341^d8b91993fbcab341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_CombosAppDelegate.m0000000000000000^2666"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o" Harmony_CombosAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_CombosAppDelegate.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony_CombosAppDelegate.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.917042
+e332069779.041475
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m43e6ea92fbcab341^fa990a93fbcab341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/InsiemeNote.m0000000000000000^2610"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o" InsiemeNote.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/InsiemeNote.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/InsiemeNote.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.098035
+e332069779.193151
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m3c4a1993fbcab341^2d7c3193fbcab341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Midi_Interface.m0000000000000000^2622"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o" Midi_Interface.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Midi_Interface.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Midi_Interface.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.917069
+e332069779.045597
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m27ddea92fbcab341^1cb40b93fbcab341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/MtrxNVoices.m0000000000000000^2610"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o" MtrxNVoices.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/MtrxNVoices.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/MtrxNVoices.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Note.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.024116
+e332069779.073274
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Note.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.me15d0693fbcab341^a5c01293fbcab341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Note.m0000000000000000^2582"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Note.o" Note.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Note.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Note.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.046800
+e332069779.153274
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m85270c93fbcab341^0b442793fbcab341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewController.m0000000000000000^2642"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o" TableViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewController.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewController.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.042722
+e332069779.145605
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m321c0b93fbcab341^39432593fbcab341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSource.m0000000000000000^2642"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o" TableViewDataSource.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSource.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSource.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.077916
+e332069779.174663
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m431b1493fbcab341^c2c32c93fbcab341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceCadenze.m0000000000000000^2670"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o" TableViewDataSourceCadenze.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceCadenze.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceCadenze.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.074546
+e332069779.155538
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.md9431393fbcab341^c0d02793fbcab341^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceSistemaTemperato.m0000000000000000^2706"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o" TableViewDataSourceSistemaTemperato.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceSistemaTemperato.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceSistemaTemperato.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.045165
+e332069779.145423
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.me4bc0b93fbcab341^43392593fbcab341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/TableViewDataSourceTonal.m0000000000000000^2662"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o" TableViewDataSourceTonal.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/TableViewDataSourceTonal.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/TableViewDataSourceTonal.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069779.101756
+e332069779.185143
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m0d351a93fbcab341^06642f93fbcab341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/lilyInterface.m0000000000000000^2618"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o" lilyInterface.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/lilyInterface.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/lilyInterface.o"
+
+CCompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/main.o" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.916578
+e332069779.022880
+r1
+xCompileC
+xDerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/main.o
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m90bdea92fbcab341^d9eb0593fbcab341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/main.m0000000000000000^2582"CompileC "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/main.o" main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -include "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/main.m" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/main.o"
+
+CCompileXIB "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/MainMenu.xib"
+s332069777.546681
+e332069778.196128
+r1
+xCompileXIB
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/MainMenu.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/MainMenu.xib8e028c91fbcab341^50353292fbcab341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/English.lproj/MainMenu.xib0000000000000000^562"CompileXIB English.lproj/MainMenu.xib    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj/MainMenu.nib" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk
+
+CCompileXIB "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/MainMenu.xib"
+s332069777.546697
+e332069778.190638
+r1
+xCompileXIB
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/MainMenu.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/MainMenu.xib47038c91fbcab341^c8cd3092fbcab341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/it.lproj/MainMenu.xib0000000000000000^547"CompileXIB it.lproj/MainMenu.xib    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj/MainMenu.nib" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/it.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/AppStrings.strings" AppStrings.strings
+s332069777.558782
+e332069777.571507
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/AppStrings.strings
+xAppStrings.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Copy AppStrings.strings21208f91fbcab341^0a4d9291fbcab341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/AppStrings.strings0000000000000000^467"CopyStringsFile "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/AppStrings.strings" AppStrings.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources" -- AppStrings.strings
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s332069777.546405
+e332069777.549096
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings8eeb8b91fbcab341^f7908c91fbcab341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/English.lproj/InfoPlist.strings0000000000000000^520"CopyStringsFile "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/English.lproj" -- English.lproj/InfoPlist.strings
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/LilypondStrings.strings" LilypondStrings.strings
+s332069777.556597
+e332069777.569322
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/LilypondStrings.strings
+xLilypondStrings.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy LilypondStrings.stringsd9958e91fbcab341^a1be9191fbcab341^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/LilypondStrings.strings0000000000000000^482"CopyStringsFile "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/LilypondStrings.strings" LilypondStrings.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources" -- LilypondStrings.strings
+
+CCopyStringsFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings" it.lproj/InfoPlist.strings
+s332069777.546678
+e332069777.549795
+r1
+xCopyStringsFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings
+xit.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy it.lproj/InfoPlist.strings7aff8b91fbcab341^7fbf8c91fbcab341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/it.lproj/InfoPlist.strings0000000000000000^500"CopyStringsFile "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj/InfoPlist.strings" it.lproj/InfoPlist.strings    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/it.lproj" -- it.lproj/InfoPlist.strings
+
+CCpResource "Hard Drive.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Hard Drive.icns"
+s332069777.547150
+e332069777.554108
+r1
+xCpResource
+xHard Drive.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Hard Drive.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Hard Drive.icns4f248c91fbcab341^2bd98d91fbcab341^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/Hard%20Drive.icns0000204d2205f041^540"CpResource "Hard Drive.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Hard Drive.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Hard Drive.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource "System Preferences.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/System Preferences.icns"
+s332069777.550247
+e332069777.558915
+r1
+xCpResource
+xSystem Preferences.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/System Preferences.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/System Preferences.icns25eb8c91fbcab341^55148f91fbcab341^---0#0#0#-19%DVTDocumentLocation2@191"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/System%20Preferences.icns0000204d2205f041^564"CpResource "System Preferences.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/System Preferences.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/System Preferences.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource "Trash Full.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Trash Full.icns"
+s332069777.554337
+e332069777.560970
+r1
+xCpResource
+xTrash Full.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Trash Full.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Trash Full.icns2ffb8d91fbcab341^91998f91fbcab341^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/Trash%20Full.icns0000204d2205f041^540"CpResource "Trash Full.icns" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Trash Full.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Trash Full.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource Console.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Console.icns"
+s332069777.550252
+e332069777.557580
+r1
+xCpResource
+xConsole.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Console.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Console.icnseeeb8c91fbcab341^e4bd8e91fbcab341^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/Console.icns0000204d2205f041^529"CpResource Console.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Console.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Console.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource Files.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Files.icns"
+s332069777.556603
+e332069777.569599
+r1
+xCpResource
+xFiles.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Files.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Files.icns9a948e91fbcab341^8dd29191fbcab341^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/Files.icns0000204d2205f041^523"CpResource Files.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Files.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Files.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource Finder.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Finder.icns"
+s332069777.547312
+e332069777.555400
+r1
+xCpResource
+xFinder.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Finder.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Finder.icnsb3288c91fbcab341^1b2e8e91fbcab341^---0#0#0#-19%DVTDocumentLocation2@177"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/Finder.icns0000204d2205f041^526"CpResource Finder.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Finder.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Finder.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource Folder.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Folder.icns"
+s332069777.554320
+e332069777.559860
+r1
+xCpResource
+xFolder.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Folder.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Folder.icns7ff88d91fbcab341^76528f91fbcab341^---0#0#0#-19%DVTDocumentLocation2@177"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/Folder.icns0000204d2205f041^526"CpResource Folder.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Folder.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Folder.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource HarmonyCombos.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns"
+s332069777.546765
+e332069777.553151
+r1
+xCpResource
+xHarmonyCombos.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/HarmonyCombos.icnsef038c91fbcab341^e99a8d91fbcab341^---0#0#0#-19%DVTDocumentLocation2@184"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/HarmonyCombos.icns0000204d2205f041^547"CpResource HarmonyCombos.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/HarmonyCombos.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/HarmonyCombos.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCpResource Mac.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Mac.icns"
+s332069777.547414
+e332069777.556413
+r1
+xCpResource
+xMac.icns
+xDerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Mac.icns
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Mac.icns44368c91fbcab341^9b718e91fbcab341^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/Resources/Mac.icns0000204d2205f041^517"CpResource Mac.icns "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources/Mac.icns"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Mac.icns" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Resources"
+
+CCreateUniversalBinary "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos" normal "x86_64 i386"
+s332069779.613288
+e332069779.650560
+r1
+xCreateUniversalBinary
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos
+xnormal
+xx86_64 i386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection178"Create universal binary /Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combosd00d9d93fbcab341^a48ea693fbcab341^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app/Contents/MacOS/Harmony%20Combos0000204d2205f041^782"CreateUniversalBinary "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos" normal "x86_64 i386"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    /usr/bin/lipo -create "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos" -output "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos"
+
+CGenerateDSYMFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app.dSYM" "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos"
+s332069779.652381
+e332069779.712055
+r1
+xGenerateDSYMFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app.dSYM
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Generating /Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app.dSYM2310a793fbcab341^aa47b693fbcab341^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/DerivedData/Harmony%20Combos/Build/Products/Release/Harmony%20Combos.app.dSYM0000204d2205f041^583"GenerateDSYMFile "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app.dSYM" "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    /Developer/usr/bin/dsymutil "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/MacOS/Harmony Combos" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app.dSYM"
+
+CLd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos" normal i386
+s332069779.412110
+e332069779.611773
+r1
+xLd
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection192"Link /Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combosa7926993fbcab341^3ca09c93fbcab341^---0#0#0#--1074"Ld "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos" normal i386    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -filelist "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos.LinkFileList" -mmacosx-version-min=10.6 -framework CoreServices -framework AudioUnit -framework AudioToolbox -framework Cocoa -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/i386/Harmony Combos"
+
+CLd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos" normal x86_64
+s332069779.266762
+e332069779.326872
+r1
+xLd
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection194"Link /Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos315d4493fbcab341^5cad5393fbcab341^---0#0#0#--1084"Ld "DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos" normal x86_64    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -filelist "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos.LinkFileList" -mmacosx-version-min=10.6 -framework CoreServices -framework AudioUnit -framework AudioToolbox -framework Cocoa -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Objects-normal/x86_64/Harmony Combos"
+
+CProcessInfoPlistFile "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Info.plist" Harmony_Combos-Info.plist
+s332069777.541140
+e332069777.544014
+r1
+xProcessInfoPlistFile
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Info.plist
+xHarmony_Combos-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process Harmony_Combos-Info.plist53958a91fbcab341^70448b91fbcab341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_Combos-Info.plist0000000000000000^614"ProcessInfoPlistFile "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Info.plist" Harmony_Combos-Info.plist    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    builtin-infoPlistUtility Harmony_Combos-Info.plist -genpkginfo "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/PkgInfo" -expandbuildsettings -format xml -platform macosx -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app/Contents/Info.plist"
+
+CProcessPCH "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.198801
+e332069778.915150
+r1
+xProcessPCH
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch.pth
+xHarmony_Combos_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Harmony_Combos_Prefix.pchc6fa3292fbcab341^bf46ea92fbcab341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_Combos_Prefix.pch0000000000000000^2447"ProcessPCH "DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/x86_64" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_Combos_Prefix.pch" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-diteyypnddrvcvdhxhqkkvwzvehu/Harmony_Combos_Prefix.pch.pth"
+
+CProcessPCH "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s332069778.199271
+e332069779.027138
+r1
+xProcessPCH
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch.pth
+xHarmony_Combos_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Harmony_Combos_Prefix.pch48173392fbcab341^edf10693fbcab341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Volumes/Programming/Programmazione/Tesi/Harmony%20Combos/Harmony_Combos_Prefix.pch0000000000000000^2441"ProcessPCH "DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-generated-files.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-own-target-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-all-target-headers.hmap" -iquote "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/Harmony Combos-project-headers.hmap" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/include" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources/i386" "-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Intermediates/Harmony Combos.build/Release/Harmony Combos.build/DerivedSources" "-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release" -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_Combos_Prefix.pch" -o "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/PrecompiledHeaders/Harmony_Combos_Prefix-gamdyvqvryqxlvfkkfxlrcceylda/Harmony_Combos_Prefix.pch.pth"
+
+CProcessPCH "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Index/PrecompiledHeaders/Harmony_Combos_Prefix-gzupabixfurzivgyuwhqyixtqaug_ast/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Index/PrecompiledHeaders/Harmony_Combos_Prefix-hgdpbkzhymytvngrtdypephaiueq_ast/Harmony_Combos_Prefix.pch.pth" Harmony_Combos_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app"
+s332069779.714384
+e332069779.720745
+r1
+xTouch
+x/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Touch /Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app35edb693fbcab341^e082b893fbcab341^---0#0#0#--291"Touch "DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app"    cd "/Volumes/Programming/Programmazione/Tesi/Harmony Combos"    /usr/bin/touch -c "/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Release/Harmony Combos.app"
+

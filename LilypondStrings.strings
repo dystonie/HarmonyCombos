@@ -1,0 +1,80 @@
+/* 
+  LilypondStrings.strings
+  Harmony Combos
+
+  Created by Guido Ronchetti on 4/7/11.
+  Copyright 2011 Dysto Productions. All rights reserved.
+*/
+//Settaggio delle strutture usate dai file di Lilypond
+"header" = "\\header {
+            title = \"%@\"
+            subtitle = \"%@\"
+            }\n";
+
+"global" = "\nglobal = {
+            \\key %@ \\major
+            \\time 4/4
+            }\n
+            stemOn = { \\revert Staff.Stem \#\'transparent \\revert Staff.Flag \#\'transparent }
+            stemOff = { \\override Staff.Stem \#\'transparent = \#\#t \\override Staff.Flag \#\'transparent = \#\#t }
+            ";
+
+"durata" = "2";
+
+"steamOff" = "\\stemOff ";
+
+"doubleBar" = "\\bar \"||\"";
+
+"lyricsString" = " ||";
+
+"voiceMusic" = "%@Music = {
+                %@
+                }\n";
+
+"version" = "\\version \"2.12.2\"";
+
+"score" = "\\score {
+            \\new ChoirStaff <<
+                \\new Staff = women \\with { \\remove \"Time_signature_engraver\" } <<
+                    %@
+                >>
+                \\new Staff = men \\with { \\remove \"Time_signature_engraver\" } <<
+                    \\clef bass
+                    %@
+                >>
+            >>
+            \\layout {
+                \\context {
+                \\Staff
+                }
+            }
+            }\n";
+
+"scoreWithText" = "\\score {
+            \\new ChoirStaff <<
+                \\new Staff = women \\with { \\remove \"Time_signature_engraver\" }<<
+                    %@
+                >>
+                \\new Staff = men \\with { \\remove \"Time_signature_engraver\" }<<
+                    \\clef bass
+                    %@
+                >>
+                \\context Lyrics=testo \\testo
+            >>
+            \\layout {
+                \\context {
+                \\Staff
+                }
+            }
+            }\n";
+
+"newVoice" = "\\new Voice = \"%@\" {
+                \\%@
+                <<\\global\\%@Music>>
+                }\n";
+
+"testoField" = "testo = \\lyricmode {
+                    %@
+                }\n";
+                
+            

@@ -1,0 +1,21 @@
+//Versione tradotta delle stringhe del programma
+//Pannello Info
+"str.01" = "Num. note basso tonica:";
+"str.02" = "Num. note tenore tonica:";
+"str.03" = "Num. note alto tonica:";
+"str.04" = "Num. note soprano tonica:";
+"str.05" = "Num. note basso dominante:";
+"str.06" = "Num. note tenore dominante:";
+"str.07" = "Num. note alto dominante:";
+"str.08" = "Num. note soprano dominante:";
+"str.09" = "Num. combinazioni totali:";
+//Pannello Opzioni
+"str.10" = "Tonica";
+"str.11" = "Dominante";
+//Dialog Error
+"str.12" = "Errore durante il salvataggio";
+"str.13" = "Si è verificato un errore durante il salvataggio";
+"str.14" = "Delle clausole dell'armonia";
+"str.15" = "combinazioni generate automaticamnte";
+"str.16" = "Lily Pound non trovato";
+"str.16" = "Lily Pound non è presente su questo calcolatore.";

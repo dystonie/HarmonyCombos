@@ -1,0 +1,21 @@
+//Localized string versions
+//Info panel
+"str.01" = "Num. notes bass home:";
+"str.02" = "Num. notes tenor home:";
+"str.03" = "Num. notes alto home:";
+"str.04" = "Num. notes soprano home:";
+"str.05" = "Num. notes bass dominant:";
+"str.06" = "Num. notes tenor dominant:";
+"str.07" = "Num. notes alto dominant:";
+"str.08" = "Num. notes soprano dominant:";
+"str.09" = "Num. total combinations:";
+//Options panel
+"str.10" = "Home";
+"str.11" = "Dominant";
+//Dialog Error
+"str.12" = "Error while saving";
+"str.13" = "An error occurred while saving the file.";
+"str.14" = "Harmony Combos";
+"str.15" = "app generated combinations";
+"str.16" = "Lily Pound non found";
+"str.17" = "Lily Pound was non found on this computer.";

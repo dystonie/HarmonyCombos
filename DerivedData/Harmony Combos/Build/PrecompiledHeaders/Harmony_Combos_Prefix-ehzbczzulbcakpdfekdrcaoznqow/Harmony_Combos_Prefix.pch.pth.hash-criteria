@@ -1,0 +1,23 @@
+Contents of /Volumes/Programming/Programmazione/Tesi/Harmony Combos/Harmony_Combos_Prefix.pch
+2.0 (tags/Apple/clang-138) (based on LLVM 2.9svn)
+-x
+c++
+-arch
+i386
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-fpascal-strings
+-O0
+-isysroot
+/Developer/SDKs/MacOSX10.6.sdk
+-fasm-blocks
+-mmacosx-version-min=10.6
+-gdwarf-2
+-fvisibility=hidden
+-fvisibility-inlines-hidden
+-iquote
+-iquote
+-I/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Debug/include
+-F/Volumes/Programming/Programmazione/Tesi/Harmony Combos/DerivedData/Harmony Combos/Build/Products/Debug

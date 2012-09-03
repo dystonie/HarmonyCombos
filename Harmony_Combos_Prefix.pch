@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Harmony Combos' target in the 'Harmony Combos' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
